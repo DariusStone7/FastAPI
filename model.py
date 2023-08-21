@@ -1,17 +1,10 @@
 from pydantic import BaseModel
 
-class Item (BaseModel):
-    item : str
-    status : str
 
-
-class TodoOut (BaseModel):
-    id : int
-    item : Item
-
-
-class TodoIn(BaseModel):
-    password: str
-    id : int
-    item : Item
+class Todo(BaseModel):
+    title: str
+    description: str
+    created_at: str
+    expire_at: str
+    updated_at: str
 

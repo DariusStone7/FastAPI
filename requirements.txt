@@ -1,7 +1,3 @@
-**************** Requirements******************
-
 FastAPI
-
 Uvicorn
-
 Pydantic
